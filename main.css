@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header, main, aside, footer, article, section, form {
+    padding: 20px;
+    border: 1px solid #333;
+}
+
+header, footer {
+    width: 100%;
+}
+main {
+    width: calc(75% - 24px);
+    display: inline-block;
+}
+section {
+    margin-top: 30px;
+}
+section img {
+    width: 100%;
+}
+.article-footer {
+    margin-top: 20px;
+}
+aside {
+    width: 25%;
+}
+aside img {
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label {
+    display: block;
+}
+input, textarea {
+    display: block;
+    width: 100%;
+}
+footer {
+    text-align: center;
+}
